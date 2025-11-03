@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Bitcount+Grid+Single:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <a href="/">Izaque Querino</a>
+      </div>
+
+      <div class="right">
+        <a
+          href="https://www.linkedin.com/in/izaque-querino-4213aa339/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-square-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a
+          href="https://github.com/Izaqueqv"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a
+          href="https://mail.google.com/mail/u/0/?pli=1#inbox?compose=CllgCJlLWdGCgvrcxsrxtFPVPHDtBDCzGFSmvTpVbvgkrBNqFWMRPMlLWRhWFCZFtsDcPGtdmRg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!--SECTION 1: Hero-->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi, i am Izaque!&#128075;</h2>
+          <p>
+            My names is Izaque, i am 20 years old, a computer science student
+            and a web development enthusiast. At the moment, i am learning about
+            html, css and javascript, and building projects to consolidate my
+            learning. I was a professional swimmer for 7 years, and my best
+            achievement was being a brazilian champion. through swimming, i
+            developed skills such as focus, discipline, persistence - habilities
+            that i carry with me into web delopment.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-laptop-code"></i><span>Skills</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i><span>Contact</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img src="img/profile-pic (1).png" alt="Izaque Querino headshot" />
+        </div>
+      </section>
+
+      <!--Nav bar-->
+
+      <!--main content-->
+      <main>
+        <!--SECTION 1: Skills-->
+        <section id="skills" class="skills-section">
+          <h2>Skills</h2>
+
+          <div class="text">
+            Currently developing my front-end skills, with real projects
+            focusing on CSS and HTML.
+          </div>
+
+          <div class="skills-icons">
+            <div class="cell">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                alt="html icon"
+              /><span>HTML</span>
+            </div>
+
+            <div class="cell">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+              />
+              <span>CSS</span>
+            </div>
+          </div>
+        </section>
+
+        <!--SECTION 3: Contact-->
+        <section id="contact" class="contact-section">
+          <h2>Contact</h2>
+
+          <div class="group">
+            <div class="text">
+              Do you have any feedback, questions, or interest in my work? You
+              can send me a message!&#128522;
+            </div>
+
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+
+              <label for="message">Message</label>
+              <textarea id="message" cols="30" rows="10"></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </main>
+  </body>
+</html>

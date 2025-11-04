@@ -7,7 +7,7 @@ Credit: This project was based on the Under Ctrl channel.
 
 ## About the project
 
-The site include:
+The website include:
 
 . A short personal presentation
 . Contact links
@@ -19,6 +19,6 @@ The site include:
 . HTML
 . CSS
 
-## How to access the site:
+## How to access the website:
 
-. You can access her ->>>> https://izaqueqv.github.io/Portfolio/
+. You can access here ->>>> https://izaqueqv.github.io/Portfolio/

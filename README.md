@@ -1,7 +1,7 @@
 # Portfolio
 
 This is my first project as a web developer!
-I cretaed this portfolio to consolidate my learning in HTML and CSS.
+I created this portfolio to consolidate my learning in HTML and CSS.
 
 Credit: This project was based on the Under Ctrl channel.
 
